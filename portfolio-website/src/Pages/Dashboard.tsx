@@ -5,6 +5,8 @@ import { Coffee, Database, Layout, Menu, Server, Smartphone } from 'lucide-react
 import { Button } from "@/components/ui/button"
 // import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards"
 // import supplyChain from "@/assets/suuplyChain.jpeg"
+import chaincare from "@/assets/chaincare page.jpeg"
+import hyperbase from "@/assets/hyperbase.png"
 import { Code, Code2,ArrowRight } from 'lucide-react'
 
 // const testimonials = [
@@ -179,10 +181,130 @@ export default function Dashboard() {
             <div className="text-2xl font-bold flex justify-start pt-6">CHAINCARE</div>
             <div className="pt-6 flex ml-auto">
               <button className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-black">
-                <ArrowRight className="w-6 h-6 text-black" />
+                <ArrowRight className="w-6 h-6 text-black" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
               </button>
             </div>
           </div>
+          <div className='flex flex-row'>
+          <div
+          className="w-[450px] max-w-full relative rounded-2xl border border-b-4 flex-shrink-0  px-8 py-6 md:w-[550px]"
+            style={{
+              background:
+                "linear-gradient(180deg, #f8f8f8, #e5e5e5)",
+            }}
+            >
+            <blockquote>
+              <div className="relative z-20 mt-6 flex flex-col items-center justify-center h-full">
+                <img src={chaincare} alt="Chaincare" className="w-50 h-50 pt-3 object-cover rounded-lg cursor-pointer" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
+              </div>
+            </blockquote>
+          </div>
+          <div className='pt-20'>
+            <span className="flex flex-col gap-1 text-center font-bold">
+              HEALTH CARE IN BLOCKCHAIN
+            </span>
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-normal px-6">
+              A blockchain-based healthcare management system built on Hyperledger Fabric, designed to securely handle patient data. The system ensures confidentiality through Private Data Collections and provides seamless interaction with front-end applications via RESTful APIs. It enhances interoperability by integrating with external APIs, enabling connections with service providers like insurance companies and medical scanners.
+            </span>
+
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-bold text-right px-6">
+              Hyperledger Fabric - Node.js - Docker - Bash - React
+            </span>
+          </div>
+          </div>
+
+        </div>
+
+
+        <div>
+          <div className='flex flex-row'>
+            <div className="text-2xl font-bold flex justify-start pt-6">HYPERBASE</div>
+            <div className="pt-6 flex ml-auto">
+              <button className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-black">
+                <ArrowRight className="w-6 h-6 text-black" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
+              </button>
+            </div>
+          </div>
+          <div className='flex flex-row'>
+          <div className='pt-20'>
+            <span className="flex flex-col gap-1 text-center font-bold">
+            SECURED PLATFORM AS A SERVICE USING BLOCKCHAIN
+            </span>
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-normal px-6">
+            HyperBase offers a platform built on top of Hyperledger Fabric that enables customers to create blockchain networks and deploy their applications on these networks.The platform is designed to simplify the process of creating and managing blockchain networks by automating the setup and configuration of the underlying infrastructure.Hyperbase also enables users to deploy smart contracts on the blockchain network.
+            </span>
+
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-bold text-right px-6">
+              Hyperledger Fabric - Node.js - Docker - Bash - Flutter
+            </span>
+          </div>
+          <div
+          className="w-[450px] max-w-full relative rounded-2xl border border-b-4 flex-shrink-0  px-8 py-6 md:w-[550px]"
+            style={{
+              background:
+                "linear-gradient(180deg, #f8f8f8, #e5e5e5)",
+            }}
+            >
+            <blockquote>
+              <div className="relative z-20 mt-6 flex flex-col items-center justify-center h-full">
+                <img src={hyperbase} alt="Chaincare" className="w-50 h-50 pt-3 object-cover rounded-lg cursor-pointer" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
+              </div>
+            </blockquote>
+          </div>
+          </div>
+
+        </div>
+
+
+        <div>
+          <div className='flex flex-row'>
+            <div className="text-2xl font-bold flex justify-start pt-6">Tripxing</div>
+            <div className="pt-6 flex ml-auto">
+              <button className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-black">
+                <ArrowRight className="w-6 h-6 text-black" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
+              </button>
+            </div>
+          </div>
+          <div className='flex flex-row'>
+          <div
+          className="w-[450px] max-w-full relative rounded-2xl border border-b-4 flex-shrink-0  px-8 py-6 md:w-[550px]"
+            style={{
+              background:
+                "linear-gradient(180deg, #f8f8f8, #e5e5e5)",
+            }}
+            >
+            <blockquote>
+              <div className="relative z-20 mt-6 flex flex-col items-center justify-center h-full">
+                <img src={chaincare} alt="Chaincare" className="w-50 h-50 pt-3 object-cover rounded-lg cursor-pointer" 
+                  onClick={() => window.open("https://github.com/John-09/Chaincare")}
+                />
+              </div>
+            </blockquote>
+          </div>
+          <div className='pt-20'>
+            <span className="flex flex-col gap-1 text-center font-bold">
+              HEALTH CARE IN BLOCKCHAIN
+            </span>
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-normal px-6">
+              A blockchain-based healthcare management system built on Hyperledger Fabric, designed to securely handle patient data. The system ensures confidentiality through Private Data Collections and provides seamless interaction with front-end applications via RESTful APIs. It enhances interoperability by integrating with external APIs, enabling connections with service providers like insurance companies and medical scanners.
+            </span>
+
+            <span className="block mt-4 text-sm leading-[1.6] text-gray-900 font-bold text-right px-6">
+              Hyperledger Fabric - Node.js - Docker - Bash - React
+            </span>
+          </div>
+          </div>
+
         </div>
 
 
