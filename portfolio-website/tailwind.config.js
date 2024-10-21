@@ -18,13 +18,19 @@ export default {
 		  animation: {
 			scroll:
 			  "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+			  fadeInLeft: 'fadeInLeft 0.5s ease-out forwards',
 		  },
+
 		  keyframes: {
 			scroll: {
 			  to: {
 				transform: "translate(calc(-50% - 0.5rem))",
 			  },
 			},
+			fadeInLeft: {
+				'0%': { opacity: 0, transform: 'translateX(-100%)' },
+				'100%': { opacity: 1, transform: 'translateX(0)' },
+			  },
 		  },
   		colors: {
   			background: 'hsl(var(--background))',

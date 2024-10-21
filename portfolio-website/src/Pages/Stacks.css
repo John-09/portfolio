@@ -1,0 +1,33 @@
+.scroller {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scroller ul {
+    display: flex;
+    gap: 4px;
+    transition: transform 0.5s linear; /* Smooth transition */
+  }
+  
+  .animate-scroll {
+    animation: scroll-left var(--animation-duration) linear infinite; /* Add infinite scrolling */
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(-100%); /* End position, move out of view */
+    }
+  }
+  
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(100%); /* End position, move out of view */
+    }
+  }
+  
