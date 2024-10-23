@@ -46,7 +46,7 @@ const IntroSection = () => {
         animate={{ opacity: showAbout ? 1 : 0, x: showAbout ? 0 : 50 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-gray-600">
+        <p className="text-gray-800">
           I am a passionate Software Engineer with hands-on experience in
           full-stack development using technologies like Node.js, Angular.js,
           React.js, and TypeScript. I specialize in building scalable web
